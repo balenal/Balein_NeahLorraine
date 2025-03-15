@@ -1,0 +1,38 @@
+section{
+    color: bisque;
+    inline-size: none;
+    text-align: center;
+    background-color: rgb(49, 48, 48);
+}
+
+.pro, li{
+    display: inline;
+    padding: '5';
+    word-spacing: normal;
+} 
+
+.para{
+    display: inline;
+    color: azure;
+}
+
+section{
+    inset-inline-start: 12;
+}
+
+.shirt{
+    background-image: url("tshirt.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: contain;
+    background-position: top 50% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.para, li, a{
+   color: bisque;
+}
